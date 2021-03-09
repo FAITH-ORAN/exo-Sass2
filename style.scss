@@ -1,0 +1,30 @@
+
+/* j'ai déclaré trois variables*/
+$myColor:#A21CFF;
+$primary:#510E80;
+$wonderful:#FC9665;
+
+/*j'ai déclaré une mixin et je l'applique grace à @*include*/
+@mixin flex{
+    display:flex;
+    flex-direction: column;
+   align-items:center;
+}
+a{
+    color: black;
+}
+a:hover{
+    color: $wonderful;
+}
+h3{
+    color: $primary;
+}
+.corps ul{
+    @include flex;
+}
+/*j'ai appliqué uniquement un background sur une autre page html*/
+ .box {background: url(https://cdn.pixabay.com/photo/2021/03/03/07/09/background-6064645_1280.jpg);    
+}
+
+
+

@@ -1,0 +1,33 @@
+@charset "UTF-8";
+/* j'ai déclaré trois variables*/
+/*j'ai déclaré une mixin et je l'applique grace à @*include*/
+a {
+  color: black;
+}
+
+a:hover {
+  color: #FC9665;
+}
+
+h3 {
+  color: #510E80;
+}
+
+.corps ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+/*j'ai appliqué uniquement un background sur une autre page html*/
+.box {
+  background: url(https://cdn.pixabay.com/photo/2021/03/03/07/09/background-6064645_1280.jpg);
+}
+/*# sourceMappingURL=style.css.map */
